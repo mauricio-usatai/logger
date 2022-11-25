@@ -13,4 +13,4 @@ class Log(Base):
   id = Column(Integer, primary_key=True, autoincrement=True)
   date = Column(Integer)
   level = Column(String(10))
-  log_message = Column(String(300))
+  log_message = Column(String(5000))
